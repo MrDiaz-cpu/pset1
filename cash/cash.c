@@ -11,6 +11,7 @@ int main(void)
 /*
 Greedy function to find least amount of coins to return as change.
 input: int change - amount of change to find the least amount of change for
+        int count - the current amount of coins
 output: least amount of coins int
 */
 int greedy(int change, int count){
