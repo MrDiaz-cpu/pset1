@@ -25,6 +25,12 @@ int greedy(int change, int count){
     } else if (change == 0){
         return count;
     }
+    //HINT:
+    //check if you can take a 'bite' of 10 cents from change
+    // you could do something like change - dime > 0
+    // if it is update the number
+    // you could do something like new_change = change - dime
+    // update the coin count
+    // repeat the same steps above but for a nickle aka 5 cents and you are done
     return greedy(new_change, count);
-    
 }
